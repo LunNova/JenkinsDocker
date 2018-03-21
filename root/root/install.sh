@@ -2,7 +2,7 @@
 
 cd /root/
 
-apk --no-cache add ca-certificates bash openjdk8 curl git
+apk --no-cache add ca-certificates bash openjdk8 openjdk7 curl git
 update-ca-certificates
 
 
