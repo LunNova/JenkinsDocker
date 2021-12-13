@@ -1,8 +1,8 @@
 FROM jenkins/jenkins:alpine
-MAINTAINER Luna Allan <docker@nallar.me>
+MAINTAINER Luna <git@nyx.nova.fail>
 
 ENV LANG=C.UTF-8 \
-TZ=Europe/London \
+TZ=UTC0 \
 FIX_PERMISSIONS=true
 
 USER root

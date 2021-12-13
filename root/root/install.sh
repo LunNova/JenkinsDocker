@@ -3,9 +3,8 @@ set -e
 
 cd /root/
 
-apk --no-cache add ca-certificates bash openjdk8 openjdk7 curl git
+apk --no-cache add ca-certificates bash openjdk11 openjdk17 curl git
 update-ca-certificates
-
 
 git config --global user.email jenkins@nallar.me && git config --global user.name "nallar.me Jenkins"
 
