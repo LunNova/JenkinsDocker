@@ -10,6 +10,7 @@ on:
     tags: [ 'v*' ]
   schedule:
     - cron: "1 13 * * 1" # 13:01 UTC on Mondays
+  workflow_dispatch:
 
 jobs:
   build-and-push:
